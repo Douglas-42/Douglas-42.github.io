@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Folio Mio | Android Games</title>
+<meta name="description" content="Android games by Folio Mio: Spot the Difference, Million Quiz, Geo Clicker and Penalty Super Cup.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#10142a;color:#eef0ff;line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1040px;margin:auto;padding:0 20px}
+.hero{text-align:center;padding:72px 0 40px}
+h1{font-size:clamp(2.4rem,8vw,4.2rem);line-height:1.1}
+.hero p{color:#b9bedd;font-size:1.15rem;margin:12px 0 24px}
+nav{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:48px}
+nav a{text-decoration:none;text-align:center;font-size:.9rem;font-weight:600;padding:16px 8px;border-radius:16px;background:#1b2040}
+nav a:hover{background:#272d57}
+nav img{width:72px;height:72px;border-radius:18px;display:block;margin:0 auto 10px}
+.game{--c:#ffb84d;background:#1b2040;border-top:5px solid var(--c);border-radius:20px;padding:28px;margin-bottom:32px;scroll-margin-top:16px}
+.quiz{--c:#b98cff}.geo{--c:#4dd6c1}.penalty{--c:#7ddc6a}
+.game header{display:flex;gap:18px;align-items:center;margin-bottom:16px}
+.icon{width:88px;height:88px;border-radius:20px;flex:none}
+.cat{color:var(--c);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em}
+h2{font-size:clamp(1.3rem,4vw,1.9rem);line-height:1.25}
+ul{display:grid;grid-template-columns:1fr 1fr;gap:4px 32px;margin:14px 0 20px 20px;color:#c9cdea}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.shot{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#0b0e1f;border-radius:10px}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-top:22px}
+.btn{display:inline-block;background:var(--c,#fff);color:#10142a;font-weight:700;text-decoration:none;padding:12px 26px;border-radius:999px}
+.btn:hover{filter:brightness(1.1)}
+.sub{color:#b9bedd}
+footer{text-align:center;padding:24px 0 48px;color:#b9bedd}
+a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:680px){nav{grid-template-columns:1fr 1fr}ul{grid-template-columns:1fr}.game{padding:20px}
+.shots{display:flex;overflow-x:auto;scroll-snap-type:x mandatory}.shot{width:85%;flex:none;scroll-snap-align:start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+ <h1>Folio Mio</h1>
+ <p>Here you'll find apps and games to entertain and amuse you.</p>
+ <a class="btn" href="https://play.google.com/store/apps/dev?id=6893372395020561858" target="_blank" rel="noopener">See our Google Play page</a>
+</header>
+<nav aria-label="Games"><a href="#spot"><img class="" src="https://play-lh.googleusercontent.com/WuSfcWZtBHN9DDByRvFbsZPr9sk7PfCY1tjqRyu5QepkRkGMOP9EhEr1y-ITwPQXIjNb9Qx_-n8oKVgUGMRm=s128" alt="Spot the Difference - Game icon" loading="lazy" referrerpolicy="no-referrer"><span>Spot the Difference - Game</span></a><a href="#quiz"><img class="" src="https://play-lh.googleusercontent.com/ZaUPxUwxs_Gq7BuUiH0Tda2JKFhXAUW1l5oMmLWlQyAnTHbyLSfpCKsUsX2pBfEyM69MGNBYyZYS-Bn8bt6d=s128" alt="Million Quiz - Trivia Game icon" loading="lazy" referrerpolicy="no-referrer"><span>Million Quiz - Trivia Game</span></a><a href="#geo"><img class="" src="https://play-lh.googleusercontent.com/knW23P10V7NUhGV66QC43V4EJdjw2BAnvY0EpOyJrWCjB-8yyedm8kV2ESouQCFQsfLJUDhUC3d7ZzDXubhFXg=s128" alt="Geo Clicker: Conquer the World icon" loading="lazy" referrerpolicy="no-referrer"><span>Geo Clicker: Conquer the World</span></a><a href="#penalty"><img class="" src="https://play-lh.googleusercontent.com/cEBx4Z-0WpH5HwhaAEO_g3Jw4hC--PiHq9tvKRltM2Dl1_mmsBqxBtwtvR7oKFWqWZteTi5gVUYCrr1zhEu0Sgg=s128" alt="Penalty Super Cup: Soccer icon" loading="lazy" referrerpolicy="no-referrer"><span>Penalty Super Cup: Soccer</span></a></nav>
+<main>
+<article class="game spot" id="spot">
+ <header><img class="icon" src="https://play-lh.googleusercontent.com/WuSfcWZtBHN9DDByRvFbsZPr9sk7PfCY1tjqRyu5QepkRkGMOP9EhEr1y-ITwPQXIjNb9Qx_-n8oKVgUGMRm=s192" alt="Spot the Difference - Game icon" loading="lazy" referrerpolicy="no-referrer"><div><p class="cat">Puzzle</p><h2>Spot the Difference - Game</h2></div></header>
+ <p>Find what changed between two illustrated pictures, from everyday scenes to fantasy worlds.</p>
+ <ul><li>53 levels, the first 27 free</li><li>One-time payment unlocks the full game</li><li>No ads, no time limit, plays offline</li><li>Daily memory challenge and 9 languages</li></ul>
+ <div class="shots"><img class="shot" src="https://play-lh.googleusercontent.com/6uUAm69J4oTnrFnTlqXQxXxO_gNDQP7PTLCZPOet_N6C2Xah-Mxe9y4TsFBGXISIlJuQg6RUcPmiipStuukhMOY=w526-h296" alt="Spot the Difference - Game screenshot 1" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/YwPUeUv6HvvRCp7JMQr6ZajfI_5Q4PGnV5pWi7kMgpHVhLzgOhyIZIIilYdkM_lc1FRZcVrnWrQaW0qF7zUx8A=w526-h296" alt="Spot the Difference - Game screenshot 2" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/DSfgWYRpkImWRx7TyYbdSIOGEkYg_jlKEoXAaFXdoZLX7hjynrgMKJfKkcWgc9Wl_SOjYaRkNcTkdDANdBTt=w526-h296" alt="Spot the Difference - Game screenshot 3" loading="lazy" referrerpolicy="no-referrer"></div>
+ <div class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.folio.spotthedifference" target="_blank" rel="noopener">Get it on Google Play</a><a class="sub" href="https://docs.google.com/document/d/1wPdA4Szh5vnfa473fZnRW_NwwTzbt14CqIIvmo_I_Tc/edit?usp=sharing" target="_blank" rel="noopener">Privacy policy</a></div>
+</article>
+<article class="game quiz" id="quiz">
+ <header><img class="icon" src="https://play-lh.googleusercontent.com/ZaUPxUwxs_Gq7BuUiH0Tda2JKFhXAUW1l5oMmLWlQyAnTHbyLSfpCKsUsX2pBfEyM69MGNBYyZYS-Bn8bt6d=s192" alt="Million Quiz - Trivia Game icon" loading="lazy" referrerpolicy="no-referrer"><div><p class="cat">Trivia</p><h2>Million Quiz - Trivia Game</h2></div></header>
+ <p>Answer 15 questions in a row and climb the ladder to a $1,000,000 virtual prize. No real money or gambling.</p>
+ <ul><li>Over 1,300 questions across 16 topics</li><li>Four lifelines in every game</li><li>Plays offline, no sign-up, 12 languages</li><li>Free to play, with ads</li></ul>
+ <div class="shots"><img class="shot" src="https://play-lh.googleusercontent.com/KcEh23CMLgpWoXF6G5mCPW80OuUo6oBeAgrguyz6B4pLo8hmJDarnbn8DHoyjHuDFG61Pld90KTsQ3EtUDwAzQ=w526-h296" alt="Million Quiz - Trivia Game screenshot 1" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/DQaQ56PZhzz4ZnvwipAthYRyQjXMbIuJZ4x9pb5bmqjmS66wK4Grj8WH0hFfn7O6mv32JW3qm47HZYlTI6ss=w526-h296" alt="Million Quiz - Trivia Game screenshot 2" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/zMlTv97hAQSO9MAHHOurkKf7zQD56_x2dRSX-UPFwGVXRrYhd_Y_nyez_CJCY0OhCYpYYo5e18B6qpnwCxUCFw=w526-h296" alt="Million Quiz - Trivia Game screenshot 3" loading="lazy" referrerpolicy="no-referrer"></div>
+ <div class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.folio.quizdomilho" target="_blank" rel="noopener">Get it on Google Play</a></div>
+</article>
+<article class="game geo" id="geo">
+ <header><img class="icon" src="https://play-lh.googleusercontent.com/knW23P10V7NUhGV66QC43V4EJdjw2BAnvY0EpOyJrWCjB-8yyedm8kV2ESouQCFQsfLJUDhUC3d7ZzDXubhFXg=s192" alt="Geo Clicker: Conquer the World icon" loading="lazy" referrerpolicy="no-referrer"><div><p class="cat">Casual</p><h2>Geo Clicker: Conquer the World</h2></div></header>
+ <p>Tap the globe, build local businesses and expand from your home country to all 195 countries.</p>
+ <ul><li>Idle income while the game is closed</li><li>Country profiles, history and 580+ fun facts</li><li>Plays offline, no sign-up</li><li>English and Portuguese. Free, with ads</li></ul>
+ <div class="shots"><img class="shot" src="https://play-lh.googleusercontent.com/CtllfpzgjGpbwfssRHhTRIFJd14m1sPela97JU1a6mVzZ5U4QlUqH5-xuj7qdOKCx3kB8MNSSp35XuPNKQlw=w526-h296" alt="Geo Clicker: Conquer the World screenshot 1" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/bdoxDEbWZB6H2Pz15aUD6ujknvLET4xoP5Z0aN-DL_FFS267W-sUkMFdhc_RGvZplOpB4j_VO2IN-yTMf9o6WA=w526-h296" alt="Geo Clicker: Conquer the World screenshot 2" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/I4QKb6BJZNmgxY-5OeeVp3PSBAUweuWqNIgK1orrYTxklPEHqi8AtKoKs1-3er0opcjv3Gs0iqRursklpJQvgQ=w526-h296" alt="Geo Clicker: Conquer the World screenshot 3" loading="lazy" referrerpolicy="no-referrer"></div>
+ <div class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.folio.geoclickerdomination" target="_blank" rel="noopener">Get it on Google Play</a></div>
+</article>
+<article class="game penalty" id="penalty">
+ <header><img class="icon" src="https://play-lh.googleusercontent.com/cEBx4Z-0WpH5HwhaAEO_g3Jw4hC--PiHq9tvKRltM2Dl1_mmsBqxBtwtvR7oKFWqWZteTi5gVUYCrr1zhEu0Sgg=s192" alt="Penalty Super Cup: Soccer icon" loading="lazy" referrerpolicy="no-referrer"><div><p class="cat">Sports</p><h2>Penalty Super Cup: Soccer</h2></div></header>
+ <p>Shoot, save and lead your national team to glory in a penalty shootout cup.</p>
+ <ul><li>32 national teams, group stage to final</li><li>Tap-and-drag aiming and goalkeeper saves</li><li>Friendly mode, trophy case and stats</li><li>7 languages</li></ul>
+ <div class="shots"><img class="shot" src="https://play-lh.googleusercontent.com/sEWzsK4R-lM80ngSdSQ7A0oDND1lRa4OG3qmI1TQQ1fQ4fCbYm-woFrmr9vP7YIRS0G8pxM_NJ-eSOw8JWcd_Q=w526-h296" alt="Penalty Super Cup: Soccer screenshot 1" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/jyesVGkBPsLnCPKCTN-qBTj863wK0WKkDoRePfRgp8XAZ3Yr7NVvKi76b7oKp66AKPoUZMJkx-uigngYjTt0Hsk=w526-h296" alt="Penalty Super Cup: Soccer screenshot 2" loading="lazy" referrerpolicy="no-referrer"><img class="shot" src="https://play-lh.googleusercontent.com/lQwdBhLRb12-L1KssYwmSeCc68jlmi-lBPKEIdByfCD9eEpi0CidIfip4nH8oxgiRLZyPfgOhGnXS7geIkE7x3U=w526-h296" alt="Penalty Super Cup: Soccer screenshot 3" loading="lazy" referrerpolicy="no-referrer"></div>
+ <div class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.dhmes.penaltysupercup" target="_blank" rel="noopener">Get it on Google Play</a></div>
+</article>
+</main>
+<footer>
+ <p>Contact: <a href="mailto:douglasaraujo2910@gmail.com">douglasaraujo2910@gmail.com</a></p>
+ <p>&copy; 2026 Folio Mio. Google Play is a trademark of Google LLC.</p>
+ <p>Penalty Super Cup is independent and not affiliated with any league, federation or competition.</p>
+</footer>
+</div>
+</body>
+</html>
